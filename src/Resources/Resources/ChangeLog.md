@@ -18,7 +18,12 @@
         - Additional information about change #1
 -->
 ## Upcoming Release
-* Updated `Get-AzResourceGroupDeploymentOperation` and `Save-AzResourceGroupDeploymentTemplate` to use the SDK.
+* added properties "Condition", "ConditionVersion" and "Description" to New-AzRoleAssignment
+    - this includes all the relevant changes to the data models
+
+## Version 2.3.0
+* Updated `Save-AzResourceGroupDeploymentTemplate` to use the SDK.
+* Added 'Unregister-AzResourceProvider' cmdlet.
 
 ## Version 2.2.0
 * Added `UsageLocation`, `GivenName`, `Surname`, `AccountEnabled`, `MailNickname`, `Mail` on `PSADUser` [#10526] [#10497]
